@@ -7,8 +7,10 @@
 .header-container {
         display: flex;
         color: white;
-        background: #1F2937;
-        padding: 20px 0;
+        background: url(images/headerbg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
 }
 .main-header { 
     height: 250px;
@@ -201,4 +203,71 @@ flex:1;
     font-size: 28px;
     font-weight: bold;
     align-self:center;
+    
 }
+.call-to-action-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.cta-second-container {
+    display: flex;
+    width: 900px;
+    height: 150px;
+    background: url(images/lowerbg.jpg);
+    color: #E5E7EB;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke: #3882f6;
+    align-self: center;
+    border-radius: 10px;
+    flex-direction: column;
+
+    
+
+    
+   
+}
+.main-cta {
+    display: flex;
+    max-width: max-content;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 200px;
+    margin-top: 30px;
+
+   
+   
+}
+
+.lower-cta {
+    display: flex;
+    max-width: max-content;
+    font-size: 27px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 200px;
+
+}
+.button-two-edit {
+    display: flex;
+    align-self:flex-end;
+    margin-right: 60px;
+
+}
+
+.button-two {
+    border: 1px solid white;
+}
+
+.main-cta,
+.lower-cta {
+    
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #010101;
+    
+}
+
+
