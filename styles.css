@@ -109,3 +109,19 @@ flex:1;
     border: 3px solid white;
     
 }
+.lowerbody-container{
+    height: 600px;
+    border: 1px solid black;
+}
+.lbtitle-container {
+
+
+    
+}
+.lowerbody-title {
+    display: flex;
+    font: 48px black ;
+    font-weight: bolder;
+    justify-content: center;
+    
+}
