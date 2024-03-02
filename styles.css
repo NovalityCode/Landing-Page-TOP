@@ -110,8 +110,16 @@ flex:1;
     
 }
 .lowerbody-container{
+    display: flex;
     height: 600px;
-    border: 1px solid black;
+    background: url(images/lb-background3.jpg);
+    background-repeat: no-repeat;
+    background-size:1200px 550px;
+    background-position: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
 }
 .lbtitle-container {
 
@@ -123,5 +131,45 @@ flex:1;
     font: 48px black ;
     font-weight: bolder;
     justify-content: center;
+    padding: 20px;
     
+}
+.mini-image{
+    display: flex;
+    border: 2px solid white;
+}
+.one {
+    width: 250px;
+    height: 250px;
+    background: url(images/happy-elly.jpg);
+    background-repeat: no-repeat;
+    background-size:250px 250px;
+    background-position: center;
+    align-items: first baseline;
+}
+.two {
+    width: 250px;
+    height: 250px;
+    background: url(images/lb-tiger.jpg);
+    background-repeat: no-repeat;
+    background-size:250px 250px;
+    background-position: center;
+}
+
+.three {
+    width: 250px;
+    height: 250px;
+    background: url(images/lb-whale.jpg);
+    background-repeat: no-repeat;
+    background-size:250px 250px;
+    background-position: center;
+}
+
+.four {
+    width: 250px;
+    height: 250px;
+    background: url(images/lb-penguins.jpg);
+    background-repeat: no-repeat;
+    background-size:250px 250px;
+    background-position: center;
 }
