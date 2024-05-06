@@ -42,7 +42,7 @@ a {
     align-items: center;
     margin-right: auto;
     justify-items: center;
-    cursor: pointer;
+    cursor: auto;
 }
 
 .hthree {
